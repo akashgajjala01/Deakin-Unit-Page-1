@@ -1,0 +1,21 @@
+.unit-details {
+  width: 80%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+.unit-details th, .unit-details td {
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  text-align: left;
+}
+
+.unit-details th {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.unit-details tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
