@@ -1,19 +1,16 @@
-
-
-h1 {
-  font-size: 40px;
-  font-family: Arial
-}
-h2 {
-  font-size: 25px;
-  font-family: Arial
-}
-h3 {
-  font-family: Arial
-}
-p {
-  font-size: 14px;
-  font-family: Arial
+.unit-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: Arial;
 }
 
+.unit-table th, .unit-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
 
+.unit-table th {
+  background-color: #f2f2f2;
+}
