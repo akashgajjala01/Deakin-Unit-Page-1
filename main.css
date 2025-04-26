@@ -1,42 +1,52 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Deakin Unit Dashboard</title>
-  <link rel="stylesheet" href="main.css">
-</head>
-<body>
-  <header class="main-header">
-    <img src="logo.svg.png" alt="Deakin Logo" class="logo">
-    <h1>Deakin University – Unit Information Page</h1>
-  </header>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+}
 
-  <section class="unit-details">
-    <h2>Unit Overview</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Unit Code</th>
-          <th>Year</th>
-          <th>Enrolment Mode</th>
-          <th>Unit Chair</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>SIT223</td>
-          <td>2025</td>
-          <td>Online</td>
-          <td>Dr. Sam Clarke</td>
-        </tr>
-        <tr>
-          <td>SIT753</td>
-          <td>2025</td>
-          <td>On Campus</td>
-          <td>Prof. Kim Lee</td>
-        </tr>
-      </tbody>
-    </table>
-  </section>
-</body>
-</html>
+.main-header {
+  background-color: #00693e;
+  color: white;
+  padding: 25px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-header .logo {
+  height: 60px;
+  width: auto;
+}
+
+h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.unit-details {
+  padding: 30px;
+}
+
+.unit-details h2 {
+  color: #004d40;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  background-color: #eeeeee;
+}
