@@ -1,19 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Deakin Unit Dashboard</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header class="main-header">
+    <img src="logo.svg.png" alt="Deakin Logo" class="logo">
+    <h1>Deakin University – Unit Information Page</h1>
+  </header>
 
-
-h1 {
-  font-size: 40px;
-  font-family: Arial
-}
-h2 {
-  font-size: 25px;
-  font-family: Arial
-}
-h3 {
-  font-family: Arial
-}
-p {
-  font-size: 14px;
-  font-family: Arial
-}
-
-
+  <section class="unit-details">
+    <h2>Unit Overview</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Unit Code</th>
+          <th>Year</th>
+          <th>Enrolment Mode</th>
+          <th>Unit Chair</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>SIT223</td>
+          <td>2025</td>
+          <td>Online</td>
+          <td>Dr. Sam Clarke</td>
+        </tr>
+        <tr>
+          <td>SIT753</td>
+          <td>2025</td>
+          <td>On Campus</td>
+          <td>Prof. Kim Lee</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+</body>
+</html>
